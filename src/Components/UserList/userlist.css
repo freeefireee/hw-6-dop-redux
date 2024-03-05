@@ -1,0 +1,80 @@
+img {
+    height: 60px;
+    transform: translateX(30px);
+    border-radius: 5px;
+}
+
+.userlist {
+    display: flex;
+    width: 100%;
+}
+.userlist h1{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.userlist .btn{
+    float: right;
+    margin-left: 73%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.buttonClass {
+    margin-left: 80%;
+    transform: translateY(-55%);
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    margin-left: 85%;
+    transform: translateY(-45px);
+
+}
+.faSort{
+    width: 10px;
+    height: 20px;
+    transform: translateX(-55px);
+}
+.faSort svg{
+    font-size: 30px;
+}
+.container{
+    width: 100%;
+
+}
+.use_container{
+    width: 100%;
+}
+
+
+
+.users{
+    width: 100%;
+    justify-content: space-around;
+    line-height: 60px;
+}
+.user_name{
+
+    transform: translateX(160px);
+}
+.delete_btn{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.delete{
+  font-size: 30px;
+  cursor: pointer;
+  transform: translateX(10px);
+}
+.faPen{
+    font-size: 30px;
+    transform: translateX(30px);
+}

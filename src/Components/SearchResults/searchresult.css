@@ -1,0 +1,14 @@
+.result-box {
+    width: 22%;
+    height: 4%;
+    background-color: rgb(157, 164, 164);
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.result-img {
+    transform: translateX(140px);
+}
