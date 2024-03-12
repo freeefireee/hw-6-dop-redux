@@ -28,7 +28,9 @@ input {
     top: 50%;
     right: 10px; 
     transform: translateY(-50%);
+    cursor: pointer;
   }
+  
   .faBell{
     font-size: 25px;
     margin-top: 5px;

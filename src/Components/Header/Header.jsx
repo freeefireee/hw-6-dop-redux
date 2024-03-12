@@ -16,10 +16,14 @@ const Header = () => {
     }
   };
 
+  const handleBack = () => {
+    navigate('/');
+  };
+
   return (
     <header className='header'>
       <nav className='nav'>
-        <div className='back'>
+        <div className='back' onClick={handleBack}>
           <FontAwesomeIcon className='onback' icon={faCircleLeft} style={{ color: '#a3abb8' }} />
         </div>
         <div className='input'>
